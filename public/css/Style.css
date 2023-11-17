@@ -1,0 +1,223 @@
+body{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+/************************
+    **HOME**
+************************/
+.nav ul li{
+    display: inline;
+    padding-left: 20px;
+    
+   
+}
+.nav a{
+    color: rgba(8, 13, 255, 0.5);
+    text-decoration: none;
+}
+.nav a:link{
+    color: rgba(8, 13, 255, 0.5);
+}
+.nav a:hover{
+    color: rgba(255, 9, 247, 0.5);
+}
+.logo a{
+    font-family: cursive;
+    display: flex;
+    text-align: left;
+    color: rgba(255, 9, 247, 0.5);
+    font-size: 60px;
+    text-decoration: none;
+
+}
+.logo a:link{
+    color: rgba(255, 9, 247, 0.5);
+}
+.logo a:visited{
+    color: rgba(255, 9, 247, 0.5);
+}
+.logo a:hover{
+    color: rgba(255, 9, 247, 0.5);
+}
+.top-section ul li{
+    display:inline;
+    margin-left: 20;
+    margin-right: 20; 
+}
+.pic{
+    border-radius: 100%;
+    width: 300px;
+}
+.top-section{
+   background: white;
+   padding-top: 50px;
+   padding-bottom: 10px;
+}
+.delimiter-section{
+    padding-bottom: 40px;
+    background: rgba(198, 198, 198, 0.963);
+}
+
+.desc{
+    display:inline-flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.botton-section{
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.botton-section h1{
+    text-transform: uppercase;
+}
+div img{
+    width: 300px;
+    display: flex;   
+}
+.text{
+   text-align: justify;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width: 60%;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+.text a{
+    text-decoration: none;
+}
+.text a:hover{
+    text-decoration:underline;
+    color: rgba(255, 9, 247, 0.5);
+}
+.text a:visited{
+    color: rgba(8, 13, 255, 0.5);
+}
+.container {
+    display: flex;
+    justify-content: right;
+    gap: 50px ;
+    
+}
+
+.footer{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.footer div{
+    margin-left: 5px;
+}
+.ft-desc{
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content:flex-start;
+    line-height: 30px;
+}
+.ft-desc a{
+    text-decoration: none;
+}
+.ft-desc a:hover{
+    text-decoration:underline;
+   
+}
+.ft-desc a:link{
+    color: rgba(255, 9, 247, 0.5);
+}
+
+.ft-social li{
+    text-decoration: none;
+    display: inline-block;
+}
+.ft-container {
+    display:list-item;
+    padding: 10px;
+    
+}
+.social-1{
+    width: 50px;
+    border-radius: 100%;
+}
+.social-2{
+    width: 50px;
+    border-radius: 100%;
+}
+.social-3{
+    width: 40px;
+    border-radius: 100%;
+}
+
+/************************
+    **SOBRE**
+************************/
+.sobre-txt-top{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width: 100%;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+.sobre-txt-down{
+   padding-left: 10px;
+}
+.sobre-txt-down p{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.stats{
+    text-align: center;
+    display:inline-flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background: rgba(8, 13, 255, 0.5);
+    opacity: 0.5;
+    border-radius: 20px;
+}
+/************************
+    **Comunidade**
+************************/
+form fieldset{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding: 50px;
+    width: 30%;
+    background: rgba(8, 13, 255, 0.5);
+    opacity: 0.5;
+    border-radius: 40px;
+}
+input::placeholder{
+    color:  black;
+    font-weight: bolder;
+}
+form label{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+form input:hover{
+    border: 2px solid brown;
+    border-radius: 50px;
+    transition-duration: 500ms;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form button:hover{
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 50px;
+    transition-duration: 500ms;
+}
+
