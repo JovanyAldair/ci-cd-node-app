@@ -1,5 +1,6 @@
 /*
 This file contains the tests of the GET/ routes
+You can update this this file using chai assertions if you want
 It expects 200 OK
 */
 
