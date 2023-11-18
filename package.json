@@ -1,19 +1,23 @@
 {
-  "name": "project",
+  "name": "pdf-api",
   "version": "1.0.0",
-  "description": "project for pap",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
-  },
-  "author": "jovany",
+  "description": "A API FOR DOWNLOAD SOME PDF",
+  "main": "api.js",
+  "author": "Jovany",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22",
-    "sequelize": "^6.31.0"
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "start": "node api.js",
+    "test": "mocha"
   }
 }
