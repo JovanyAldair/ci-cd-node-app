@@ -1,9 +1,9 @@
-# Node.js APT do download a PDF
+# Node.js API to download a PDF file
 
 ## Introduction
 
 This project consists of an API made in Node.js, which will download a PDF file, called `file.pdf`
-in which I set up a unit test using Node's `supertest` package and did continuous integration **CI** using `Github Actions`
+in which I set up a unit test using Node.js `supertest` package and did continuous integration **CI** using `Github Actions`
 
 ## Tools used in this project
 
